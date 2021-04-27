@@ -1,0 +1,47 @@
+body {
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif
+    font-size: 10px;
+    background: linear-gradient(35deg, #CCFFFF, #FFCCCC);
+}
+
+
+header {
+    border-bottom: 2px Solid #000;
+    margin-bottom: 1rem;
+    display: flex;
+}
+header h1 a{
+    color: green;
+    text-decoration: none;
+}
+
+.nav-left {
+    margin-right: auto;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.post-entry {
+    margin-bottom: 1rem;
+}
+
+.post-entry h2 {
+    margin: 0.5rem 0;
+}
+
+.post-entry h2 a,
+.post-entry h2 a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+.post-entry p {
+    margin: 0;
+    font-weight: 200;
+}
+
+.post-entry h2 a:hover {
+    color: red;
+}
